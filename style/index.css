@@ -1,0 +1,52 @@
+body{
+    width: 100%;
+    height: 100%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+nav{
+    color: rgba(47, 40, 30, 1);
+}
+
+.nav__links{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    width: 350px;
+    height: 28px;
+
+}
+.nav__links li{
+    margin: 5%;
+}
+
+.nav__links li a:hover{
+    color: #0088a9;
+}
+.sign-btn{
+    display: flex;
+    flex-direction: row;
+    border-radius: 3px;
+    /* width: 102px;
+    height: 46px; */
+    justify-content: space-between;
+}
+
+.sign-btn__in{
+    color: rgba(23, 58, 86, 1);
+    border: 1px solid rgba(188, 208, 229, 1);
+    padding: 10px;
+    margin: 5px;
+}
+
+.sign-btn__up{
+    background-color: rgba(255, 153, 0, 1);
+    color: rgba(255, 255, 255, 1);
+    padding: 10px;
+    margin: 5px;
+}

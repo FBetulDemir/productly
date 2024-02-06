@@ -175,14 +175,23 @@ footer{
 input{
     width: 325px;
     height: 38px;
+
+}
+.footer__info-bar, .footer__input{
+    position: relative;
+    top: 40px;
 }
 
 .footer__input{
     display: flex;
     flex-direction: column;
-
+    position: relative;
+    left: 80px;
+    top: 90px;
 }
-
+.footer__info-bar{
+    line-height: 2;
+}
 .footer__info-bar li a:hover{
     color: #0088a9;
 }

@@ -45,6 +45,9 @@ nav{
 
 .nav__links li a:hover{
     color: #0088a9;
+    /* position: absolute;
+    transform: scaleX(0.5);
+    transform-origin: right; */
 }
 
 a:link {
@@ -54,6 +57,14 @@ a:hover {
     text-decoration: underline;
 }
 
+.effect-btn:hover{
+    position: absolute;
+    transform: scale(1,1);
+
+} 
+.sign-btn__up:hover{
+
+}
 .sign-btn{
     display: flex;
     position: relative;

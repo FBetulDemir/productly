@@ -145,6 +145,7 @@ a:hover {
     text-align: left;
 }
 
+/* Styling of the forth section starts here */
 .forth-section__align{
     display: flex;
     flex-direction: row;
@@ -158,6 +159,7 @@ a:hover {
 .check-list__img{
     position: relative;
     top: 10px;
+    margin-right: 15px;
 }
 
 .check-list, .footer__info-bar{

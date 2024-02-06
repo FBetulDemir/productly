@@ -9,6 +9,7 @@ body{
     line-height: 24px; /* 150% */
     letter-spacing: 0.32px;
 }
+
 header{
     display: flex;
     justify-content: space-between;
@@ -78,17 +79,22 @@ a:hover {
     border-radius: 5px;
     width: 110px;
 }
+/* .img-section{
+    width: 386px;
+    height: 470px;
+} */
 
 .first-section{
     display: flex;
     align-items: center;
-    margin: 5% 10%;
-    text-align: center;
+    margin: 7% 8%;
+    text-align: left;
     flex-shrink: 1;
 }
 .first-section__btn-video{
     display: flex;
     flex-shrink: 1;
+    align-items: baseline;
 }
 
 .fa-play{
@@ -129,6 +135,7 @@ a:hover {
 /* third and fifth sections have the same styling */
 .third-fifth-section{
     display: flex;
+    align-items: center;
     margin: 15% 10%;
     color: rgba(84, 72, 55, 1);
     justify-content: space-between;
@@ -141,7 +148,16 @@ a:hover {
 .forth-section__align{
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    margin: 15% 7%;
+
+}
+.forth-section__text{
+    position: relative;
+    left: 20px;
+}
+.check-list__img{
+    position: relative;
+    top: 10px;
 }
 
 .check-list, .footer__info-bar{
